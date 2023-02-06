@@ -1,0 +1,22 @@
+.post-header-container {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.info-container {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.username {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
