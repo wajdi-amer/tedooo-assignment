@@ -1,7 +1,11 @@
+import React from "react";
+import Posts from "./components/Posts/Posts";
+
 function App() {
   return (
     <div className="App">
-      App
+      APP
+      <Posts />
     </div>
   );
 }
