@@ -7,14 +7,12 @@ const PostContent = ({ postData }) => {
     postData.images = postData.images.slice(0, 2);
   }
 
-  console.log(postData.images);
-
   return (
     <div className='post-content-container'>
       <div className='text-container'> <p>{postData.text}</p> </div>
       <div className='images-container'>
         {postData.images.map((image) => (
-          <img src={image} alt='user upload'></img>
+          <img src={image} alt='user upload' key={image}></img>
         ))}
       </div>
     </div>

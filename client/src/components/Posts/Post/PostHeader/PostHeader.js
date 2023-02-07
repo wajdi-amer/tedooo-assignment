@@ -17,7 +17,7 @@ const PostHeader = ({ postData }) => {
                     <a href={`/shop/${postData.shopId}`}>{postData.shopName}</a><span className='date'> · {dateTimeAgo}</span>
                 </div>
             </div>
-        </div>
+        </div> 
     )
 }
 
