@@ -1,13 +1,15 @@
 import React from 'react';
 
 import PostHeader from './PostHeader/PostHeader';
+import PostContent from './PostContent/PostContent';
 
 import './styles.css';
 
 const Post = ({ postData }) => {
   return (
     <div className='post-container'>
-      <PostHeader postData={postData} key={postData.userId}/>
+      <PostHeader postData={postData} key={postData.userId} />
+      <PostContent postData={postData} />
     </div>
   )
 }

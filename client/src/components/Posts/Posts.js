@@ -14,8 +14,7 @@ const Posts = () => {
         });
     }, []);
 
-    console.log(posts);
-
+    // In case there are no posts, the page will render a message.
     if (posts.length === 0) return (<h2>Cannot Find Posts...</h2>);
 
   return (
