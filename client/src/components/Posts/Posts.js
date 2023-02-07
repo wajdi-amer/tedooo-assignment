@@ -3,6 +3,8 @@ import axios from 'axios';
 
 import Post from './Post/Post';
 
+import './styles.css';
+
 const baseURL = 'https://dev.tedooo.com/feed.json';
 
 const Posts = () => {
@@ -18,7 +20,7 @@ const Posts = () => {
     if (posts.length === 0) return (<h2>Cannot Find Posts...</h2>);
 
   return (
-    <div>
+    <div className='posts-container'>
         {posts?.map((post) => (
             <Post postData={post} key={post.id}/>
         ))}
