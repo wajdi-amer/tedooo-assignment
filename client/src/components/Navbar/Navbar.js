@@ -9,29 +9,29 @@ const Navbar = () => {
     return (
         <div className='container'>
             <div className='search-container'>
-                <div className='tedooo-icon'>
+                <a href='/' className='tedooo-icon'>
                     <TedoooIcon />
-                </div>
+                </a>
                 <input type='text' placeholder='Search...' className='search-input'></input>
             </div>
             <div className='links'>
-                <div>
+                <a href='/'>
                     <IconContext.Provider value={{ color: "rgb(45,184,161)" }}>
                         <AiOutlineHome />
                     </IconContext.Provider>
-                    <a href='/comingsoon'>Home</a>
-                </div>
-                <div>
-                    <IconContext.Provider value={{ color: "rgb(45,184,161)" }}>
+                    <span>  Home</span>
+                </a>
+                <div title="Messages aren't available yet, coming soon!">
+                    <IconContext.Provider value={{ color: "#9a9a9a" }}>
                         <AiOutlineMessage />
                     </IconContext.Provider>
-                    <a href='/comingsoon'>Messaging</a>
+                    <span>  Messaging</span>
                 </div>
-                <div>
-                    <IconContext.Provider value={{ color: "rgb(45,184,161)" }}>
+                <div title="Notifications aren't available yet, coming soon!">
+                    <IconContext.Provider value={{ color: "#9a9a9a" }}>
                         <AiOutlineNotification />
                     </IconContext.Provider>
-                    <a href='/comingsoon'>Notifications</a>
+                    <span>  Notifications</span>
                 </div>
             </div>
         </div>

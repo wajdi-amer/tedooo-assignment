@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    z-index: 10;
 }
 
 .search-container {
@@ -37,16 +38,26 @@
 }
 
 .links a {
+    height: 35px;
     text-decoration: none;
-    color: rgb(45,184,161);
-    font-size: larger;
-    font-weight: 600;
-    margin-left: 5px;
 }
 
 .links div {
     height: 35px;
+    cursor: default;
 }
-.links div:hover {
+
+.links span {
+    color: rgb(45,184,161);
+    font-size: larger;
+    font-weight: 600;
+    margin: 0px
+}
+
+.links div span {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.links a:hover {
     border-bottom: 2px solid rgb(45,184,161);
 }

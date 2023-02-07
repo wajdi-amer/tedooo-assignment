@@ -39,7 +39,7 @@ const PostFooter = ({ postData }) => {
                         &nbsp;
                         <p>Like</p>
                     </div>}
-                <div className='action-div'>
+                <div className='action-div' title="Comments aren't available yet, coming soon!">
                     <IconContext.Provider value={{ size: '1.4em' }}>
                         <AiOutlineComment />
                     </IconContext.Provider>
