@@ -14,7 +14,7 @@ const Post = ({ postData }) => {
   // Checking if element (ref) is currently viewed (inView) and changing
   // the URL Search Params according to the element's userId and itemId passed through props
   const { ref, inView } = useInView({
-    threshold: 0.8,
+    threshold: 0.85,
     onChange: (inView) => {
       if (inView) setSearchParams({ userId: postData.userId, itemId: postData.id });
     }
