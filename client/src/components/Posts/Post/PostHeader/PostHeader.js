@@ -14,7 +14,7 @@ const PostHeader = ({ postData }) => {
             <div className='info-container'>
                 <h3 className='username'>{postData.username}</h3>
                 <div>
-                    <a href={`/shop/${postData.shopId}`}>{postData.shopName}</a><span className='date'> · {dateTimeAgo}</span>
+                    <a href='/' title="Shops aren't available yet, coming soon!">{postData.shopName}</a><span className='date'> · {dateTimeAgo}</span>
                 </div>
             </div>
         </div> 
