@@ -1,4 +1,6 @@
 # Tedooo Assignment Project
+<a name="readme-top"></a>
+
 <div align="center">
     <a href='https://www.tedooo.com/'><img src="./client/src/images/tedooo-banner.png" alt="Tedooo Banner" width='400px'></a>
 
