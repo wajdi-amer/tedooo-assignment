@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import InfiniteScroll from 'react-infinite-scroller';
+import InfiniteScroll from 'react-infinite-scroller'; // used for loading only 6 posts at once
 
 import Post from './Post/Post';
 
@@ -8,9 +8,9 @@ import './styles.css';
 
 const baseURL = 'https://dev.tedooo.com/feed.json';
 
-const Posts = () => {
+const Feed = () => {
     const [posts, setPosts] = useState([]);
-    const [postsScrollIndex, setPostsScrollIndex] = useState(0);
+    const [postsScrollIndex, setPostsScrollIndex] = useState(0); // index of the current 6 posts shown
 
     useEffect(() => {
         axios.get(baseURL).then((response) => {
@@ -42,4 +42,4 @@ const Posts = () => {
     )
 }
 
-export default Posts;
+export default Feed;

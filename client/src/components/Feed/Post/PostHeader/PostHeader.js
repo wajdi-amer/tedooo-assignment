@@ -4,7 +4,7 @@ import moment from 'moment';
 import './styles.css';
 
 const PostHeader = ({ postData }) => {
-
+    
     // Converting the given date into a Time Ago format using Moment library
     const dateTimeAgo = moment(new Date(postData.date)).fromNow();
     

@@ -3,7 +3,7 @@ import './styles.css';
 import TedoooIcon from './TedoooIcon';
 
 import { AiOutlineHome, AiOutlineMessage, AiOutlineNotification } from 'react-icons/ai';
-import { IconContext } from "react-icons";
+import { IconContext } from "react-icons"; // used for editing icon props
 
 const Navbar = () => {
     return (
