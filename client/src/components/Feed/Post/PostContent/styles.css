@@ -18,3 +18,35 @@
 .images-container img {
     width: 45%;
 }
+
+@media only screen and (max-width: 450px) {
+    .images-container {
+      width: 300px;
+      height: 125px;
+      gap: 10px;
+    }
+
+    .text-container {
+        height: 20px;
+        margin: 6.66666px;
+        padding-left: 5.3333px;
+        font-size: x-small;
+        margin-bottom: 2.5px;
+    }
+  }
+
+@media only screen and (min-width: 450px) and (max-width: 900px) {
+    .images-container {
+      width: 675px;
+      height: 322.5px;
+      gap: 22.5px;
+    }
+
+    .text-container {
+        height: 45px;
+        margin: 15px;
+        padding-left: 12px;
+        font-size: medium;
+        margin-bottom: 5px;
+    }
+  }

@@ -24,3 +24,30 @@
 .date {
     color: rgba(135, 135, 135, 0.8);
 }
+
+@media only screen and (max-width: 450px) {
+    .post-header-container {
+        margin: 6.666666px;
+        padding: 5px 3.333333px 1.66666px 3.33333px;
+        font-size: x-small;
+    }
+    .info-container {
+        margin-top: 3.33333px;
+        margin-left: 5px;
+    }
+    .avatar {
+        width: 20px;
+        height: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 450px) and (max-width: 900px) {
+    .post-header-container {
+        margin: 15px;
+        padding: 11.25px 7.5px 3.75px 7.5px;
+    }
+    .info-container {
+        margin-top: 7.5px;
+        margin-left: 11.25px;
+    }
+  }

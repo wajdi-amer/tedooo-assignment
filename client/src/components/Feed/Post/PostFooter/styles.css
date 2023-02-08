@@ -43,3 +43,34 @@ hr {
 .blue-text {
     color: blue;
 }
+
+
+@media only screen and (min-width: 450px) and (max-width: 900px) {
+    .info-part {
+        font-size: 70.5%;
+        margin: 6px 41.25px;
+    }
+    .info-part img {
+        width: 12.75px;
+    }
+    .action-div {
+      width: 337.5px;
+      height: 36px;
+      font-size: 86.25%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .info-part {
+        font-size: 31.333333%;
+        margin: 2.666px 18.33333px;
+    }
+    .info-part img {
+        width: 5.66666px;
+    }
+    .action-div {
+      width: 150px;
+      height: 16px;
+      font-size: 38.3333%;
+    }
+  }

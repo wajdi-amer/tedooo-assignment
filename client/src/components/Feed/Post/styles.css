@@ -4,3 +4,19 @@
     height: 696px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
+
+@media only screen and (min-width: 450px) and (max-width: 900px) {
+    .post-container {
+      width: 675px;
+      height: 522px;
+    }
+  }
+
+
+  @media only screen and (max-width: 450px) {
+    .post-container {
+      width: 300px;
+      height: 232px;
+    }
+  }
+  

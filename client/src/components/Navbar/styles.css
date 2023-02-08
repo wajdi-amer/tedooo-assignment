@@ -61,3 +61,16 @@
 .links a:hover {
     border-bottom: 2px solid rgb(45,184,161);
 }
+
+
+@media only screen and (max-width: 450px) {
+    .tedooo-icon {
+        opacity: 0;
+    }
+    .links div {
+        opacity: 0;
+    }
+    .links a:hover {
+        border-bottom: 0px;
+    }
+  }
